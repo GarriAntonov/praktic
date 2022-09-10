@@ -1,4 +1,12 @@
+:root {
+  --prime-text: 'Roboto', sans-serif;
+  --secondary-text: 'Raleway', sans-serif;
+  --main-color: #757575;
+  --color-two: #212121;
+  --color-three: #2196f3;
+  --color-four: #ffffff;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
+  list-style-type: none;
 }
