@@ -2,9 +2,10 @@
   --prime-text: 'Roboto', sans-serif;
   --secondary-text: 'Raleway', sans-serif;
   --main-color: #757575;
+  --color-one: rgba(255, 255, 255, 0.6);
   --color-two: #212121;
   --color-three: #2196f3;
-  --color-one: rgba(255, 255, 255, 0.6);
+  --color-four: #f5f4fa;
   --background-main: #ffffff;
   --background-black: #2f303a;
 }
@@ -93,6 +94,7 @@ body ul {
   border-radius: 4px;
   border: transparent;
   padding: 10px 32px;
+  cursor: pointer;
 }
 
 .benefits {
@@ -164,4 +166,44 @@ body ul {
 .footer .mail:focus,
 .footer .phone:focus {
   color: var(--color-three);
+}
+
+/* second page */
+
+.works {
+  background-color: var(--background-main);
+}
+.works-title {
+  display: none;
+}
+
+.works-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--color-two);
+  background: var(--color-four);
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+}
+
+.works-item:hover,
+.works-item:focus {
+  color: var(--background-main);
+  background-color: var(--color-three);
+}
+
+.works-list-two-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-two);
+}
+
+.works-list-two-text {
+  color: var(--main-color);
 }
