@@ -196,7 +196,7 @@ body ul {
   background-color: var(--color-three);
 }
 
-.works-list-two-title {
+.works-list-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -204,6 +204,6 @@ body ul {
   color: var(--color-two);
 }
 
-.works-list-two-text {
+.works-list-text {
   color: var(--main-color);
 }
