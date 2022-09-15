@@ -38,6 +38,8 @@ ul {
 
 .container {
   max-width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -45,7 +47,12 @@ ul {
   outline: 1px solid red;
 }
 
-.logo {
+.header .container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container .logo {
   font-family: var(--secondary-text);
   font-style: normal;
   font-weight: 700;
@@ -102,6 +109,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-main);
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -111,6 +119,8 @@ ul {
   display: flex;
   align-items: center;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   letter-spacing: 0.06em;
   color: var(--background-main);
   background-color: var(--color-three);
@@ -130,6 +140,7 @@ ul {
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--color-two);
+  padding-bottom: 10px;
 }
 
 .benefits-text {
@@ -142,6 +153,11 @@ ul {
   line-height: 1.2;
   text-align: center;
   color: var(--color-two);
+  margin-bottom: 50px;
+}
+
+.team-list img {
+  margin-bottom: 30px;
 }
 
 .team-title {
@@ -150,6 +166,7 @@ ul {
   line-height: 1.2;
   text-align: center;
   color: var(--color-two);
+  margin-bottom: 50px;
 }
 
 .team-name {
@@ -158,6 +175,7 @@ ul {
   line-height: 1.2;
   text-align: center;
   color: var(--color-two);
+  margin-bottom: 10px;
 }
 
 .team-speciality {
@@ -165,10 +183,16 @@ ul {
   line-height: 1.2;
   text-align: center;
   color: var(--main-color);
+  margin-bottom: 30px;
 }
 
 .footer {
   background-color: var(--background-black);
+}
+
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo {
