@@ -60,8 +60,9 @@ ul {
   line-height: 1.2;
 }
 
-.logo-web {
+.logo .logo-web {
   color: var(--color-three);
+  margin-bottom: 20px;
 }
 
 .header-link {
@@ -190,9 +191,18 @@ ul {
   background-color: var(--background-black);
 }
 
+.footer-list {
+  background-color: var(--background-black);
+  padding-left: 0;
+}
+
 .footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.container p {
+  margin-bottom: 20px;
 }
 
 .footer .logo {
@@ -202,6 +212,7 @@ ul {
 .footer-dot {
   color: var(--background-main);
   font-style: normal;
+  margin-bottom: 9px;
 }
 
 .footer .mail,
@@ -214,6 +225,12 @@ ul {
 .footer .mail:focus,
 .footer .phone:focus {
   color: var(--color-three);
+}
+
+.footer-list .mail,
+.footer-list .phone {
+  background-color: var(--background-black);
+  margin-bottom: 9px;
 }
 
 /* second page */
@@ -242,6 +259,10 @@ ul {
 .works-item:focus {
   color: var(--background-main);
   background-color: var(--color-three);
+}
+
+.works-img {
+  margin-bottom: 30px;
 }
 
 .works-list-title {
