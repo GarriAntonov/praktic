@@ -48,8 +48,27 @@ ul {
 }
 
 .header .container {
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.header-list {
+  display: flex;
+  padding-left: 0;
+}
+
+.header-list li {
+  margin-left: 50px;
+}
+
+.header-list li:first-child {
+  margin-left: 0;
+}
+
+.container p {
+  margin-right: 93px;
 }
 
 .container .logo {
@@ -62,7 +81,7 @@ ul {
 
 .logo .logo-web {
   color: var(--color-three);
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .header-link {
@@ -84,11 +103,16 @@ ul {
 
 .mail,
 .phone {
+  margin-left: auto;
   text-decoration: none;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
+}
+
+.phone {
+  margin-left: 50px;
 }
 
 .mail:hover,
@@ -199,10 +223,6 @@ ul {
 .footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.container p {
-  margin-bottom: 20px;
 }
 
 .footer .logo {
