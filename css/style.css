@@ -6,6 +6,8 @@
   --color-two: #212121;
   --color-three: #2196f3;
   --color-four: #f5f4fa;
+  --color-bline-header: #ececec;
+  --color-b-line-work: #eeeeee;
   --background-main: #ffffff;
   --background-black: #2f303a;
 }
@@ -44,7 +46,7 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .header .container {
@@ -52,11 +54,13 @@ ul {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid var(--color-bline-header);
 }
 
 .header-list {
   display: flex;
   padding-left: 0;
+  margin-left: 93px;
 }
 
 .header-list li {
@@ -65,10 +69,6 @@ ul {
 
 .header-list li:first-child {
   margin-left: 0;
-}
-
-.container p {
-  margin-right: 93px;
 }
 
 .container .logo {
@@ -160,6 +160,18 @@ ul {
   display: none;
 }
 
+.benefits-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left: 0;
+  outline: 1px solid red;
+}
+
+.benefits {
+  display: none;
+}
+
 .benefits-title {
   font-weight: 700;
   line-height: 1.2;
@@ -172,6 +184,17 @@ ul {
   color: var(--main-color);
 }
 
+.our-activities-list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+}
+
+.img {
+  display: block;
+  height: 100%;
+}
+
 .our-activities-title {
   font-weight: 700;
   font-size: 36px;
@@ -179,6 +202,12 @@ ul {
   text-align: center;
   color: var(--color-two);
   margin-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
 }
 
 .team-list img {
@@ -251,6 +280,7 @@ ul {
 .footer-list .phone {
   background-color: var(--background-black);
   margin-bottom: 9px;
+  margin-left: 0;
 }
 
 /* second page */
@@ -258,6 +288,14 @@ ul {
 .works {
   background-color: var(--background-main);
 }
+
+.works-filters {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
 .works-title {
   display: none;
 }
@@ -285,6 +323,18 @@ ul {
   margin-bottom: 30px;
 }
 
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 0;
+  border-bottom: 1px solid var(--color-b-line-work);
+}
+
+.works-list li {
+  border-bottom: 1px solid var(--color-bline-header);
+}
+
 .works-list-title {
   font-weight: 700;
   font-size: 18px;
@@ -295,4 +345,5 @@ ul {
 
 .works-list-text {
   color: var(--main-color);
+  margin-bottom: 20px;
 }
