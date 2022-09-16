@@ -210,10 +210,19 @@ ul {
   margin-bottom: 50px;
 }
 
+.team {
+  background-color: var(--color-four);
+}
+
 .team-list {
   display: flex;
   gap: 30px;
   padding-left: 0;
+  background-color: var(--color-four);
+}
+
+.team-list li {
+  background-color: var(--background-main);
 }
 
 .team-list img {
