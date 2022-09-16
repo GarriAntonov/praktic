@@ -294,6 +294,7 @@ ul {
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
+  padding-left: 0;
 }
 
 .works-title {
@@ -341,6 +342,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-two);
+  margin-bottom: 4px;
 }
 
 .works-list-text {
