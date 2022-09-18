@@ -337,10 +337,6 @@ img {
   background-color: var(--color-three);
 }
 
-.works-img {
-  margin-bottom: 30px;
-}
-
 .works-list {
   display: flex;
   flex-wrap: wrap;
