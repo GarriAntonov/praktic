@@ -38,6 +38,12 @@ ul {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 1200px;
   padding-top: 94px;
@@ -77,6 +83,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .logo .logo-web {
@@ -194,11 +201,6 @@ ul {
   display: flex;
   gap: 30px;
   padding-left: 0;
-}
-
-.img {
-  display: block;
-  height: 100%;
 }
 
 .our-activities-title {
@@ -344,11 +346,15 @@ ul {
   flex-wrap: wrap;
   gap: 30px;
   padding-left: 0;
-  border-bottom: 1px solid var(--color-b-line-work);
 }
 
-.works-list li {
-  border-bottom: 1px solid var(--color-bline-header);
+.works-list > li {
+  flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid var(--color-bline-header);
+}
+
+.works-list div {
+  padding: 20px 24px;
 }
 
 .works-list-title {
@@ -362,5 +368,4 @@ ul {
 
 .works-list-text {
   color: var(--main-color);
-  margin-bottom: 20px;
 }
